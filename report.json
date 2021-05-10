@@ -1,0 +1,274 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "create-a-simple-order;open-gili-web",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Open Gili Web",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7801000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Enter \"LilliJWhite@einrot.com\", \"webgility\" and login",
+            "match": {
+              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6778000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User select a \"Flying Machine Slim Fit Jeans\" and Checkout",
+            "match": {
+              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44738000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Make Payment using \"378282246310005\", \"Lilli\", \"1222\" and \"258\"",
+            "match": {
+              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1593000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Order will be placed and Order number will be returned",
+            "match": {
+              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24035000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-simple-order;open-gili-web",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Open Gili Web",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 930000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Enter \"SueJSawyer@armyspy.com\", \"webgility\" and login",
+            "match": {
+              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2591000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User select a \"Men's Gili-Levi's Light Bootcut\" and Checkout",
+            "match": {
+              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26688000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Make Payment using \"6011111111111117\", \"Suej\", \"0523\" and \"951\"",
+            "match": {
+              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1579000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Order will be placed and Order number will be returned",
+            "match": {
+              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20841000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-simple-order;open-gili-web",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Open Gili Web",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 872000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Enter \"JessicaTSaulter@teleworm.us\", \"webgility\" and login",
+            "match": {
+              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3018000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User select a \"Assembly0504\" and Checkout",
+            "match": {
+              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Make Payment using \"5555555555554444\", \"Jessica\", \"1021\" and \"853\"",
+            "match": {
+              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1640000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Order will be placed and Order number will be returned",
+            "match": {
+              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18942000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "create-a-simple-order",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Create a Simple Order",
+    "tags": [],
+    "uri": "..\\features\\PlaceSimpleOrder.feature"
+  }
+]
