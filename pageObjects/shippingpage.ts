@@ -12,7 +12,9 @@ export class Shipping{
     }
 
     async selectShipping(shipmethod:string){     
-        this.radioBtns.getAttribute("data-shipping-method-label-title").then(async (temp)=>{            
+        let EC = browser.ExpectedConditions;
+        browser.wait(EC.elementToBeClickable(this.continueToPaymentBtn), 15000);
+        await this.radioBtns.getAttribute("data-shipping-method-label-title").then(async (temp)=>{            
             for(let i = 0 ; i < temp.length ; i++){
                 if(temp[i].includes(shipmethod)){                    
                     console.log("Clicking on "+temp[i]+" radio button");                                     

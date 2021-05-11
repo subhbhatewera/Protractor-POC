@@ -4,69 +4,69 @@
     "elements": [
       {
         "description": "",
-        "id": "create-a-simple-order;open-gili-web",
+        "id": "create-orders-with-discount;create-orders-with-discount-and-without-shipping,-gift-card",
         "keyword": "Scenario Outline",
         "line": 3,
-        "name": "Open Gili Web",
+        "name": "Create Orders with Discount and without Shipping, Gift Card",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 7801000000
+              "duration": 4541000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
-            "name": "Enter \"LilliJWhite@einrot.com\", \"webgility\" and login",
+            "line": 5,
+            "name": "Enter \"RetaJConover@superrito.com\", \"webgility\" and login",
             "match": {
               "location": "..\\stepDefinitions\\placeSimpleOrder.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 6778000000
+              "duration": 2633000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
-            "name": "User select a \"Flying Machine Slim Fit Jeans\" and Checkout",
+            "line": 6,
+            "name": "User select a \"Ali-Ra Clean Cut Skinny Jeans\", enter \"proc-cucu-disc\" and Checkout",
             "match": {
-              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:33"
+              "location": "..\\stepDefinitions\\placeOrderWithDiscount.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 44738000000
+              "duration": 27029000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
-            "name": "Make Payment using \"378282246310005\", \"Lilli\", \"1222\" and \"258\"",
+            "line": 7,
+            "name": "Make Payment using \"5555555555554444\", \"Reta\", \"0222\" and \"458\"",
             "match": {
               "location": "..\\stepDefinitions\\placeSimpleOrder.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 1593000000
+              "duration": 2956000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 8,
             "name": "Order will be placed and Order number will be returned",
             "match": {
               "location": "..\\stepDefinitions\\placeSimpleOrder.ts:50"
             },
             "result": {
               "status": "passed",
-              "duration": 24035000000
+              "duration": 14959000000
             }
           },
           {
@@ -82,78 +82,89 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 18000000
             }
           }
         ],
         "tags": [],
         "type": "scenario"
-      },
+      }
+    ],
+    "id": "create-orders-with-discount",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Create Orders with Discount",
+    "tags": [],
+    "uri": "..\\features\\PlaceOrderWithDiscount.feature"
+  },
+  {
+    "description": "",
+    "elements": [
       {
         "description": "",
-        "id": "create-a-simple-order;open-gili-web",
+        "id": "create-orders-with-shipping;create-orders-with-shipping-and-without-gift-card,-discount-code",
         "keyword": "Scenario Outline",
         "line": 3,
-        "name": "Open Gili Web",
+        "name": "Create Orders with Shipping and without Gift Card, Discount Code",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 930000000
+              "duration": 626000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 5,
             "name": "Enter \"SueJSawyer@armyspy.com\", \"webgility\" and login",
             "match": {
               "location": "..\\stepDefinitions\\placeSimpleOrder.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 2591000000
+              "duration": 2444000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
-            "name": "User select a \"Men's Gili-Levi's Light Bootcut\" and Checkout",
+            "line": 6,
+            "name": "User select a \"X-Press Men's Collared Sweater\", select \"FedEx\" and Checkout",
             "match": {
-              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:33"
+              "location": "..\\stepDefinitions\\placeOrderWithShipping.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 26688000000
+              "duration": 21658000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
+            "line": 7,
             "name": "Make Payment using \"6011111111111117\", \"Suej\", \"0523\" and \"951\"",
             "match": {
               "location": "..\\stepDefinitions\\placeSimpleOrder.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 1579000000
+              "duration": 2932000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 8,
             "name": "Order will be placed and Order number will be returned",
             "match": {
               "location": "..\\stepDefinitions\\placeSimpleOrder.ts:50"
             },
             "result": {
               "status": "passed",
-              "duration": 20841000000
+              "duration": 14927000000
             }
           },
           {
@@ -161,7 +172,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 5000000
             }
           },
           {
@@ -175,59 +186,70 @@
         ],
         "tags": [],
         "type": "scenario"
-      },
+      }
+    ],
+    "id": "create-orders-with-shipping",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Create Orders with Shipping",
+    "tags": [],
+    "uri": "..\\features\\PlaceOrderWithShipping.feature"
+  },
+  {
+    "description": "",
+    "elements": [
       {
         "description": "",
-        "id": "create-a-simple-order;open-gili-web",
+        "id": "create-a-simple-order;create-orders-without-shipping,-gift-card-and-discount",
         "keyword": "Scenario Outline",
         "line": 3,
-        "name": "Open Gili Web",
+        "name": "Create Orders without Shipping, Gift Card and Discount",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 872000000
+              "duration": 575000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "Enter \"JessicaTSaulter@teleworm.us\", \"webgility\" and login",
+            "name": "Enter \"LilliJWhite@einrot.com\", \"webgility\" and login",
             "match": {
               "location": "..\\stepDefinitions\\placeSimpleOrder.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 3018000000
+              "duration": 2528000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "User select a \"Assembly0504\" and Checkout",
+            "name": "User select a \"Flying Machine Slim Fit Jeans\" and Checkout",
             "match": {
               "location": "..\\stepDefinitions\\placeSimpleOrder.ts:33"
             },
             "result": {
               "status": "passed",
-              "duration": 22329000000
+              "duration": 20310000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "Make Payment using \"5555555555554444\", \"Jessica\", \"1021\" and \"853\"",
+            "name": "Make Payment using \"378282246310005\", \"Lilli\", \"1222\" and \"258\"",
             "match": {
               "location": "..\\stepDefinitions\\placeSimpleOrder.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 1640000000
+              "duration": 2761000000
             }
           },
           {
@@ -240,7 +262,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 18942000000
+              "duration": 14721000000
             }
           },
           {
@@ -256,7 +278,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 12000000
             }
           }
         ],

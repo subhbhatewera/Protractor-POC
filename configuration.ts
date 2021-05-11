@@ -4,7 +4,7 @@ export let config:Config = {
     directConnect: true,
     framework: 'custom',
     frameworkPath: require.resolve('protractor-cucumber-framework'),
-    specs:['../features/PlaceSimpleOrder.feature'],
+    specs:['../features/*.feature'],
     cucumberOpts:{
         format: 'json:../report.json',
         require: './stepDefinitions/*.js'

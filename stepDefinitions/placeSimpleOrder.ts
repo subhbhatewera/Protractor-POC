@@ -5,7 +5,7 @@ import { Checkout } from "../pageObjects/checkout";
 import { ContactInformation } from "../pageObjects/contactinformationpage";
 import { Homepage } from "../pageObjects/homepage";
 import { Loginpage } from "../pageObjects/loginpage";
-import { MensPants } from "../pageObjects/menspantspage";
+import { MensPants } from "../pageObjects/selectproduct";
 import { MyAccount } from "../pageObjects/myaccountpage";
 import { OrderConfirmation } from "../pageObjects/orderconfirmationpage";
 import { Payment } from "../pageObjects/paymentpage";
