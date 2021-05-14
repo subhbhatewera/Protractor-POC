@@ -1,5 +1,7 @@
 import { by, element, ElementFinder } from "protractor";
 
+const log = require('../logging').default;
+
 export class Checkout{
     removeBtn:ElementFinder;
     quantityField:ElementFinder;
@@ -15,21 +17,25 @@ export class Checkout{
     
     async clickOnRemoveBtn(){
         console.log("Clicking on removeBtn");
+        await log.debug("Clicking on removeBtn");
         await this.removeBtn.click();
     }
 
     async enterQuantity(quantity:string){
         console.log("Entering value in quantityField");
+        await log.debug("Entering value in quantityField");
         await this.quantityField.sendKeys(quantity);
     }
 
     async clickOnUpdateBtn(){
         console.log("Clicking on updateBtn");
+        await log.debug("Clicking on updateBtn");
         await this.updateBtn.click();
     }
 
     async clickOnCheckoutBtn(){
         console.log("Clicking on checkoutBtn");
+        await log.debug("Clicking on checkoutBtn");
         await this.checkoutBtn.click();
     }
 

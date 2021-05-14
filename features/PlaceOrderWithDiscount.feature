@@ -1,6 +1,6 @@
 Feature: Create Orders with Discount
 
-Scenario Outline: Create Orders with Discount and without Shipping, Gift Card
+Scenario Outline: Create Orders with only Discount
 
 Given Enter "<email>", "<password>" and login 
 When User select a "<productName>", enter "<discountCode>" and Checkout

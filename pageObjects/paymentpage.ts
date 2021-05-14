@@ -1,5 +1,7 @@
 import { browser, by, element, ElementFinder } from "protractor";
 
+const log = require('../logging').default;
+
 export class Payment{
     cardNumberField:ElementFinder;
     nameField:ElementFinder;
@@ -18,7 +20,8 @@ export class Payment{
     async enterCardNumber(cardNumber:string){
         await browser.switchTo().frame(element(by.css("iframe[id*='card-fields-number']")).getWebElement());
         //Entering data one by one char becuase all the characters are not entered in one go
-        console.log("Entering value in cardNumberField")
+        console.log("Entering value in cardNumberField");
+        await log.debug("Entering value in cardNumberField");
         for(let i = 0 ; i < cardNumber.length ; i ++){           
             let char = cardNumber.charAt(i);
             await browser.actions().mouseMove(this.cardNumberField).click().sendKeys(char).perform();                  
@@ -28,14 +31,16 @@ export class Payment{
 
     async enterName(nameOnCard:string){        
         await browser.switchTo().frame(element(by.css("iframe[id*='card-fields-name']")).getWebElement());
-        console.log("Entering value in nameField")
+        console.log("Entering value in nameField");
+        await log.debug("Entering value in nameField");
         await this.nameField.sendKeys(nameOnCard);
         await browser.switchTo().defaultContent();
      }
 
      async enterExpirationDate(expirationDate:string){
         await browser.switchTo().frame(element(by.css("[id*='card-fields-expiry']")).getWebElement()); 
-        console.log("Entering value in expirationDateField")
+        console.log("Entering value in expirationDateField");
+        await log.debug("Entering value in expirationDateField");
         //Entering data one by one char becuase all the characters are not entered in one go
         for(let i = 0 ; i < expirationDate.length ; i ++){           
             let char = expirationDate.charAt(i);
@@ -46,13 +51,15 @@ export class Payment{
 
     async enterSecutiryCode(secutiryCode:string){
         await  browser.switchTo().frame(element(by.css("[id*='card-fields-verification']")).getWebElement());
-        console.log("Entering value in securityCodeField")
+        console.log("Entering value in securityCodeField");
+        await log.debug("Entering value in securityCodeField");
         await this.securityCodeField.sendKeys(secutiryCode);
         await browser.switchTo().defaultContent();
     }
 
     async clickOnPayNowBtn(){  
-        console.log("Clicking on payNowBtn")      
+        console.log("Clicking on payNowBtn") ;
+        await log.debug("Clicking on payNowBtn");    
         await this.payNowBtn.click();
     }
 }

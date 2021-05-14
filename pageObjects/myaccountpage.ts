@@ -1,5 +1,7 @@
 import { by, element, ElementFinder } from "protractor";
 
+const log = require('../logging').default;
+
 export class MyAccount{
     myAccountHeading:ElementFinder;
     logOutLink:ElementFinder;
@@ -15,11 +17,13 @@ export class MyAccount{
 
     async clickOnLogoutLink(){
         console.log("Clicking on logOutLink");
+        await log.debug("Clicking on logOutLink");
         await this.logOutLink.click();
     }
 
     async clickOnAccountLink(){
-        console.log("Clicking on accountLink")
+        console.log("Clicking on accountLink");
+        await log.debug("Clicking on accountLink");
         await this.accountLink.click();
     }
 }

@@ -1,5 +1,7 @@
 import { browser, by, element, ElementFinder } from "protractor";
 
+const log = require('../logging').default;
+
 export class OrderConfirmation{
     orderNumber:ElementFinder;
     continueShoppingBtn:ElementFinder;
@@ -12,13 +14,15 @@ export class OrderConfirmation{
     async getOrderNumber(){
         let EC = browser.ExpectedConditions;
         await browser.wait(EC.visibilityOf(this.orderNumber), 20000);        
-        await this.orderNumber.getText().then((orderno)=>{
-            console.log(orderno);
+        await this.orderNumber.getText().then(async (orderno)=>{
+            console.log("Order number is -> "+orderno);
+            await log.debug("Order number is -> "+orderno);
         })
     }
 
     async clickOnContinueShoppingBtn(){
         console.log("Clicking on continueShoppingBtn");
+        await log.debug("Clicking on continueShoppingBtn");
         await this.continueShoppingBtn.click();
     }
 }

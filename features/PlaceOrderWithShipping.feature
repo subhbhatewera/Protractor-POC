@@ -1,6 +1,6 @@
 Feature: Create Orders with Shipping
 
-Scenario Outline: Create Orders with Shipping and without Gift Card, Discount Code
+Scenario Outline: Create Orders with only Shipping
 
 Given Enter "<email>", "<password>" and login 
 When User select a "<productName>", select "<shipping>" and Checkout

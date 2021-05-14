@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "create-orders-with-discount;create-orders-with-discount-and-without-shipping,-gift-card",
+        "id": "create-orders-with-discount;create-orders-with-only-discount",
         "keyword": "Scenario Outline",
         "line": 3,
-        "name": "Create Orders with Discount and without Shipping, Gift Card",
+        "name": "Create Orders with only Discount",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 4541000000
+              "duration": 19322000000
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2633000000
+              "duration": 3591000000
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27029000000
+              "duration": 47527000000
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2956000000
+              "duration": 2936000000
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14959000000
+              "duration": 24574000000
             }
           },
           {
@@ -74,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -82,7 +82,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 26000000
             }
           }
         ],
@@ -102,56 +102,56 @@
     "elements": [
       {
         "description": "",
-        "id": "create-orders-with-shipping;create-orders-with-shipping-and-without-gift-card,-discount-code",
+        "id": "create-orders-with-discount;create-orders-with-discount-and-shipping",
         "keyword": "Scenario Outline",
         "line": 3,
-        "name": "Create Orders with Shipping and without Gift Card, Discount Code",
+        "name": "Create Orders with Discount and Shipping",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 626000000
+              "duration": 933000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "Enter \"SueJSawyer@armyspy.com\", \"webgility\" and login",
+            "name": "Enter \"EdwardMFish@fleckens.hu\", \"webgility\" and login",
             "match": {
               "location": "..\\stepDefinitions\\placeSimpleOrder.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 2444000000
+              "duration": 2934000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 6,
-            "name": "User select a \"X-Press Men's Collared Sweater\", select \"FedEx\" and Checkout",
+            "name": "User select a \"Ali-Ra Latte High-Neck Winter Coat\", enter \"proc-cucu-disc\", select \"FedEx\" and Checkout",
             "match": {
-              "location": "..\\stepDefinitions\\placeOrderWithShipping.ts:16"
+              "location": "..\\stepDefinitions\\placeOrderWithDiscountAndShipping.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 21658000000
+              "duration": 67030000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "Make Payment using \"6011111111111117\", \"Suej\", \"0523\" and \"951\"",
+            "name": "Make Payment using \"4111111111111111\", \"Edward\", \"0222\" and \"458\"",
             "match": {
               "location": "..\\stepDefinitions\\placeSimpleOrder.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 2932000000
+              "duration": 2780000000
             }
           },
           {
@@ -164,7 +164,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14927000000
+              "duration": 18896000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 1000000
             }
           },
           {
@@ -180,7 +180,105 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 23000000
+              "duration": 20000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "create-orders-with-discount",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Create Orders with Discount",
+    "tags": [],
+    "uri": "..\\features\\PlaceOrderWithDiscountAndShipping.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "create-orders-with-shipping;create-orders-with-only-shipping",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Create Orders with only Shipping",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 840000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Enter \"SueJSawyer@armyspy.com\", \"webgility\" and login",
+            "match": {
+              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2874000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User select a \"X-Press Men's Collared Sweater\", select \"FedEx\" and Checkout",
+            "match": {
+              "location": "..\\stepDefinitions\\placeOrderWithShipping.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36882000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Make Payment using \"6011111111111117\", \"Suej\", \"0523\" and \"951\"",
+            "match": {
+              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2768000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Order will be placed and Order number will be returned",
+            "match": {
+              "location": "..\\stepDefinitions\\placeSimpleOrder.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24181000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15000000
             }
           }
         ],
@@ -200,17 +298,17 @@
     "elements": [
       {
         "description": "",
-        "id": "create-a-simple-order;create-orders-without-shipping,-gift-card-and-discount",
+        "id": "create-a-simple-order;create-orders-without-shipping-and-discount",
         "keyword": "Scenario Outline",
         "line": 3,
-        "name": "Create Orders without Shipping, Gift Card and Discount",
+        "name": "Create Orders without Shipping and Discount",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 575000000
+              "duration": 609000000
             }
           },
           {
@@ -223,7 +321,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2528000000
+              "duration": 3177000000
             }
           },
           {
@@ -236,7 +334,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20310000000
+              "duration": 30565000000
             }
           },
           {
@@ -249,7 +347,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2761000000
+              "duration": 2621000000
             }
           },
           {
@@ -262,7 +360,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14721000000
+              "duration": 20771000000
             }
           },
           {
@@ -270,7 +368,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -278,7 +376,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 19000000
             }
           }
         ],

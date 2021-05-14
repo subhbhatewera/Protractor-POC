@@ -1,6 +1,6 @@
 Feature: Create a Simple Order
 
-Scenario Outline: Create Orders without Shipping, Gift Card and Discount
+Scenario Outline: Create Orders without Shipping and Discount
 Given Enter "<email>", "<password>" and login 
 When User select a "<productName>" and Checkout
 And Make Payment using "<cardNumber>", "<name>", "<expirationDate>" and "<securityCode>"

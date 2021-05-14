@@ -1,5 +1,7 @@
 import { browser, by, element, ElementFinder } from "protractor";
 
+const log = require('../logging').default;
+
 export class ContactInformation{
     continueToShippingBtn:ElementFinder;
     giftCardField:ElementFinder;
@@ -15,21 +17,25 @@ export class ContactInformation{
 
     async enterGiftCard(giftcard:string){
         console.log("Entering value in giftCardField");
+        await log.debug("Entering value in giftCardField");
         await this.giftCardField.sendKeys(giftcard);
     }
 
     async enterDiscountCode(discountcode:string){
         console.log("Entering value in giftCardField");
+        await log.debug("Entering value in giftCardField");
         await this.giftCardField.sendKeys(discountcode);
     }
 
     async clickOnApplyBtn(){
         console.log("Clicking on applyBtn");
+        await log.debug("Clicking on applyBtn");
         this.applyBtn.click();
     }
 
     async clickOnContinueToShippingBtn(){
         console.log("Clicking on continueToShippingBtn");
+        await log.debug("Clicking on continueToShippingBtn");
         this.continueToShippingBtn.click();
     }
 

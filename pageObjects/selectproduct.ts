@@ -1,5 +1,7 @@
 import { browser, by, element, ElementArrayFinder } from "protractor";
 
+const log = require('../logging').default;
+
 export class MensPants{
     productList:ElementArrayFinder;
 
@@ -12,7 +14,8 @@ export class MensPants{
             for(let i = 0 ; i < text.length ; i++){
                 if(text[i]==productName){
                     console.log("Clicking on "+text[i]);
-                   await this.productList.get(i).click();
+                    await log.debug("Clicking on "+text[i]);
+                    await this.productList.get(i).click();
                     break;
                 }
             }            

@@ -1,4 +1,7 @@
-import { by, element, ElementFinder } from "protractor";
+import { by, element, ElementFinder, logging } from "protractor";
+//import { log4jsconfiguration } from "../log4jsconfiguration";
+
+const log = require("../logging").default;
 
 export class Homepage{
     mensPantsLink:ElementFinder;
@@ -22,42 +25,50 @@ export class Homepage{
     }
 
     async clickOnMensPantsLink(){
-        console.log("Clicking on mensPantsLink" )
+        console.log("Clicking on mensPantsLink" );
+        await log.debug("Clicking on mensPantsLink");
         await this.mensPantsLink.click();
     }
 
     async clickOnMensTopsLink(){
-        console.log("Clicking on mensTopsLink" )
+        console.log("Clicking on mensTopsLink" );
+        await log.debug("Clicking on mensTopsLink");
         await this.mensTopsLink.click();
     }
 
     async clickOnWomensPantsLink(){
-        console.log("Clicking on womensPantsLink" )
+        console.log("Clicking on womensPantsLink" );
+        await log.debug("Clicking on womensPantsLink");
         await this.womensPantsLink.click();
     }
 
     async clickOnWomensTopsLink(){
-        console.log("Clicking on womensTopsLink" )
+        console.log("Clicking on womensTopsLink" );
+        await log.debug("Clicking on womensTopsLink");
         await this.womensTopsLink.click();
     }
 
     async clickOnOuterwearLink(){
-        console.log("Clicking on outerwearLink")
+        console.log("Clicking on outerwearLink");
+        await log.debug("Clicking on outerwearLink");
         await this.outerwearLink.click();
     }
 
     async clickOnSkirtsLink(){
-        console.log("Clicking on skirtsLink")
+        console.log("Clicking on skirtsLink");
+        await log.debug("Clicking on skirtsLink");
         await this.skirtsLink.click();
     }
 
     async clickOnScarvesLink(){
-        console.log("Clicking on scarvesLink")
+        console.log("Clicking on scarvesLink");
+        await log.debug("Clicking on scarvesLink");
         await this.scarvesLink.click();
     }
 
     async clickOnLoginLink(){
-        console.log("Clicking on loginLink")
+        console.log("Clicking on loginLink");
+        await log.debug("Clicking on loginLink");
         await this.loginLink.click();
     }   
 }

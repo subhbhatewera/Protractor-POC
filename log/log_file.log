@@ -1,0 +1,82 @@
+[2021-05-14T12:13:55.450] [DEBUG] default - Clicking on loginLink
+[2021-05-14T12:13:56.881] [DEBUG] default - Entering email in emailField
+[2021-05-14T12:13:57.030] [DEBUG] default - Entering email in pwdField
+[2021-05-14T12:13:57.149] [DEBUG] default - Clicking on signinBtn
+[2021-05-14T12:13:59.040] [DEBUG] default - Clicking on womensPantsLink
+[2021-05-14T12:14:03.931] [DEBUG] default - Clicking on Ali-Ra Clean Cut Skinny Jeans
+[2021-05-14T12:14:05.362] [DEBUG] default - Clicking on addToCartBtn
+[2021-05-14T12:14:09.116] [DEBUG] default - Clicking on checkoutBtn
+[2021-05-14T12:14:28.327] [DEBUG] default - Entering value in giftCardField
+[2021-05-14T12:14:28.534] [DEBUG] default - Clicking on applyBtn
+[2021-05-14T12:14:30.837] [DEBUG] default - Clicking on continueToShippingBtn
+[2021-05-14T12:14:30.838] [DEBUG] default - Clicking on continueToPaymentBtn
+[2021-05-14T12:14:46.651] [DEBUG] default - Entering value in cardNumberField
+[2021-05-14T12:14:48.521] [DEBUG] default - Entering value in nameField
+[2021-05-14T12:14:48.710] [DEBUG] default - Entering value in expirationDateField
+[2021-05-14T12:14:49.249] [DEBUG] default - Entering value in securityCodeField
+[2021-05-14T12:14:49.372] [DEBUG] default - Clicking on payNowBtn
+[2021-05-14T12:15:06.639] [DEBUG] default - Order number is -> Order #GILI5616
+[2021-05-14T12:15:06.640] [DEBUG] default - Clicking on continueShoppingBtn
+[2021-05-14T12:15:08.797] [DEBUG] default - Clicking on accountLink
+[2021-05-14T12:15:11.779] [DEBUG] default - Clicking on logOutLink
+[2021-05-14T12:15:15.057] [DEBUG] default - Clicking on loginLink
+[2021-05-14T12:15:16.142] [DEBUG] default - Entering email in emailField
+[2021-05-14T12:15:16.280] [DEBUG] default - Entering email in pwdField
+[2021-05-14T12:15:16.400] [DEBUG] default - Clicking on signinBtn
+[2021-05-14T12:15:17.995] [DEBUG] default - Clicking on womensTopsLink
+[2021-05-14T12:15:54.085] [DEBUG] default - Clicking on Ali-Ra Latte High-Neck Winter Coat
+[2021-05-14T12:15:58.185] [DEBUG] default - Clicking on addToCartBtn
+[2021-05-14T12:16:00.130] [DEBUG] default - Clicking on checkoutBtn
+[2021-05-14T12:16:05.455] [DEBUG] default - Entering value in giftCardField
+[2021-05-14T12:16:05.643] [DEBUG] default - Clicking on applyBtn
+[2021-05-14T12:16:09.288] [DEBUG] default - Clicking on continueToShippingBtn
+[2021-05-14T12:16:18.685] [DEBUG] default - Clicking on FedEx Next Day Air radio button
+[2021-05-14T12:16:18.782] [DEBUG] default - Clicking on continueToPaymentBtn
+[2021-05-14T12:16:25.089] [DEBUG] default - Entering value in cardNumberField
+[2021-05-14T12:16:26.815] [DEBUG] default - Entering value in nameField
+[2021-05-14T12:16:27.016] [DEBUG] default - Entering value in expirationDateField
+[2021-05-14T12:16:27.551] [DEBUG] default - Entering value in securityCodeField
+[2021-05-14T12:16:27.674] [DEBUG] default - Clicking on payNowBtn
+[2021-05-14T12:16:41.178] [DEBUG] default - Order number is -> Order #GILI5617
+[2021-05-14T12:16:41.178] [DEBUG] default - Clicking on continueShoppingBtn
+[2021-05-14T12:16:42.575] [DEBUG] default - Clicking on accountLink
+[2021-05-14T12:16:44.295] [DEBUG] default - Clicking on logOutLink
+[2021-05-14T12:16:47.582] [DEBUG] default - Clicking on loginLink
+[2021-05-14T12:16:48.517] [DEBUG] default - Entering email in emailField
+[2021-05-14T12:16:48.656] [DEBUG] default - Entering email in pwdField
+[2021-05-14T12:16:48.768] [DEBUG] default - Clicking on signinBtn
+[2021-05-14T12:16:50.463] [DEBUG] default - Clicking on mensTopsLink
+[2021-05-14T12:16:59.568] [DEBUG] default - Clicking on X-Press Men's Collared Sweater
+[2021-05-14T12:17:04.037] [DEBUG] default - Clicking on addToCartBtn
+[2021-05-14T12:17:07.288] [DEBUG] default - Clicking on checkoutBtn
+[2021-05-14T12:17:13.949] [DEBUG] default - Clicking on continueToShippingBtn
+[2021-05-14T12:17:22.224] [DEBUG] default - Clicking on FedEx Next Day Air radio button
+[2021-05-14T12:17:22.316] [DEBUG] default - Clicking on continueToPaymentBtn
+[2021-05-14T12:17:27.418] [DEBUG] default - Entering value in cardNumberField
+[2021-05-14T12:17:29.074] [DEBUG] default - Entering value in nameField
+[2021-05-14T12:17:29.309] [DEBUG] default - Entering value in expirationDateField
+[2021-05-14T12:17:29.857] [DEBUG] default - Entering value in securityCodeField
+[2021-05-14T12:17:29.979] [DEBUG] default - Clicking on payNowBtn
+[2021-05-14T12:17:49.805] [DEBUG] default - Order number is -> Order #GILI5618
+[2021-05-14T12:17:49.806] [DEBUG] default - Clicking on continueShoppingBtn
+[2021-05-14T12:17:51.271] [DEBUG] default - Clicking on accountLink
+[2021-05-14T12:17:52.953] [DEBUG] default - Clicking on logOutLink
+[2021-05-14T12:17:54.939] [DEBUG] default - Clicking on loginLink
+[2021-05-14T12:17:56.208] [DEBUG] default - Entering email in emailField
+[2021-05-14T12:17:56.373] [DEBUG] default - Entering email in pwdField
+[2021-05-14T12:17:56.497] [DEBUG] default - Clicking on signinBtn
+[2021-05-14T12:17:58.120] [DEBUG] default - Clicking on mensPantsLink
+[2021-05-14T12:18:02.570] [DEBUG] default - Clicking on Flying Machine Slim Fit Jeans
+[2021-05-14T12:18:04.546] [DEBUG] default - Clicking on addToCartBtn
+[2021-05-14T12:18:06.031] [DEBUG] default - Clicking on checkoutBtn
+[2021-05-14T12:18:13.585] [DEBUG] default - Clicking on continueToShippingBtn
+[2021-05-14T12:18:13.586] [DEBUG] default - Clicking on continueToPaymentBtn
+[2021-05-14T12:18:28.754] [DEBUG] default - Entering value in cardNumberField
+[2021-05-14T12:18:30.302] [DEBUG] default - Entering value in nameField
+[2021-05-14T12:18:30.494] [DEBUG] default - Entering value in expirationDateField
+[2021-05-14T12:18:31.037] [DEBUG] default - Entering value in securityCodeField
+[2021-05-14T12:18:31.158] [DEBUG] default - Clicking on payNowBtn
+[2021-05-14T12:18:47.768] [DEBUG] default - Order number is -> Order #GILI5619
+[2021-05-14T12:18:47.768] [DEBUG] default - Clicking on continueShoppingBtn
+[2021-05-14T12:18:48.860] [DEBUG] default - Clicking on accountLink
+[2021-05-14T12:18:49.952] [DEBUG] default - Clicking on logOutLink
